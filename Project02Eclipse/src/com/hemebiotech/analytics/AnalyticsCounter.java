@@ -3,7 +3,6 @@ package com.hemebiotech.analytics;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.List;
 
 public class AnalyticsCounter {
 	private static int headacheCount = 0;	
