@@ -87,7 +87,7 @@ rash
 rash
 fever
 dry mouth
-fever
+fever 
 high blood pressure
 stiff neck
 dialated pupils
@@ -98,3 +98,8 @@ anxiety
 anxiety
 cough
 blurred vision
+FEVER  
+
+
+
+

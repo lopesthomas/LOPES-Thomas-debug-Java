@@ -42,6 +42,10 @@ public class AnalyticsCounter {
 	public Map<String, Integer> countSymptoms(List<String> symptomsList) {
         Map<String, Integer> symptomCounts = new HashMap<String, Integer>();
         for (String symptom : symptomsList) {
+          symptom = symptom.trim().toLowerCase();
+          if (symptom.isEmpty()){
+               continue;
+          }
             symptomCounts.put(symptom, symptomCounts.getOrDefault(symptom, 0) + 1);
         }
         return symptomCounts;
